@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration scanPeriod="30 seconds" scan="true">
+    <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <property value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}/}spring.log}" name="LOG_FILE"/>
+    <include resource="org/springframework/boot/logging/logback/file-appender.xml"/>
+    <logger name="com.zecops" level="INFO"/>
+    <root level="INFO">
+        <appender-ref ref="FILE"/>
+    </root>
+</configuration>
