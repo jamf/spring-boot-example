@@ -1,0 +1,18 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spring-boot-example
+  description: Minimal Spring Boot service for educational purposes / interviews
+  annotations:
+    #sonarqube.org/project-key: YOUR_PROJECT_KEY
+    jira/project-key: JETP
+  links:
+    - title: Repository
+      url: https://github.com/jamf/spring-boot-example
+
+spec:
+  type: service
+  owner: zecops
+  lifecycle: experimental
+  system: jetp
