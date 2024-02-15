@@ -3,6 +3,7 @@ package com.zecops.example;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,7 +17,11 @@ public class ExampleController {
     private final ConfigurableApplicationContext configurableApplicationContext;
 
     @Autowired
-    public ExampleController(ConfigurableApplicationContext configurableApplicationContext) {
+    public ExampleController(ConfigurableApplicationContext configurableApplicationContext,
+                             @Value("#{'${myProperty1:}'.trim().isEmpty() == false}") boolean property1NotEmpty,
+                             @Value("#{\"${myProperty2:}\".trim().isEmpty() == false}") boolean property2NotEmpty) {
+        logger.info("Property 1 exists = {}", property1NotEmpty);
+        logger.info("Property 2 exists = {}", property2NotEmpty);
         this.configurableApplicationContext = configurableApplicationContext;
     }
 
