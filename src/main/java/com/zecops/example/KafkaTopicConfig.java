@@ -20,7 +20,10 @@ public class KafkaTopicConfig {
     public KafkaAdmin kafkaAdmin() {
         Map<String, Object> configs = new HashMap<>();
         configs.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
-        return new KafkaAdmin(configs);
+        KafkaAdmin kafkaAdmin = new KafkaAdmin(configs);
+        // If we want to stop Spring startup in case Kafka is not available
+        kafkaAdmin.setFatalIfBrokerNotAvailable(true);
+        return kafkaAdmin;
     }
 
     @Bean
