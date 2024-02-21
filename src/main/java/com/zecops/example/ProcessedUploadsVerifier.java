@@ -22,7 +22,7 @@ public class ProcessedUploadsVerifier {
     private volatile int lastReceivedSerial = 0;
     private volatile boolean unprocessedDetected = false;
 
-    @KafkaListener(topics = "uploads-processed", groupId = "processed-uploads-validator", containerFactory = "kafkaListenerContainerFactoryForUploads", clientIdPrefix = "uploadsVerifier")
+    @KafkaListener(topics = "uploads-processed", groupId = "processed-uploads-validator", containerFactory = "kafkaListenerContainerFactoryForUploads", clientIdPrefix = "${spring.kafka.client-id}-uploadsVerifier")
     public void processUploads(@Payload Upload upload,
                                @Header(KafkaHeaders.RECEIVED_PARTITION) int partition,
                                @Header(KafkaHeaders.RECEIVED_KEY) String key,
@@ -45,10 +45,14 @@ public class ProcessedUploadsVerifier {
                         priorityQueue.poll();
                     } else if (fromQueue.getSerial() > lastReceivedSerial + 1) {
                         break;
+                    } else {
+                        duplications.add(fromQueue);
+                        priorityQueue.poll();
+                        log.info("Duplicated: {}", upload.getSerial());
                     }
                 }
                 if (priorityQueue.isEmpty()) {
-                    log.info("All aligned up to serial: {}. Unprocessed detected: {}", lastReceivedSerial, unprocessedDetected);
+                    log.info("All aligned up to serial: {}. Duplicates: {}, Unprocessed detected: {}", lastReceivedSerial, duplications.size(), unprocessedDetected);
                 }
             } else if (upload.getSerial() < lastReceivedSerial + 1) {
                 duplications.add(upload);

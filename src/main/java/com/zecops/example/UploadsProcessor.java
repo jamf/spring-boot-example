@@ -9,6 +9,7 @@ import org.springframework.kafka.support.SendResult;
 import org.springframework.messaging.handler.annotation.Header;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Random;
 import java.util.concurrent.CompletableFuture;
@@ -25,7 +26,8 @@ public class UploadsProcessor {
         this.kafkaTemplate = kafkaTemplate;
     }
 
-    @KafkaListener(topics = "uploads", groupId = "upload-processors", containerFactory = "kafkaListenerContainerFactoryForUploads", clientIdPrefix = "uploadsProcessor")
+    @Transactional
+    @KafkaListener(topics = "uploads", groupId = "upload-processors", containerFactory = "kafkaListenerContainerFactoryForUploads", clientIdPrefix = "${spring.kafka.client-id}-uploads")
     public void processUploads(@Payload Upload upload,
                                @Header(KafkaHeaders.RECEIVED_PARTITION) int partition,
                                @Header(KafkaHeaders.RECEIVED_KEY) String key,
@@ -55,9 +57,9 @@ public class UploadsProcessor {
             log.info("Unable to send processed upload {} serial {}. Exception: {}", upload.getId(), upload.getSerial(), e.getMessage());
             throw new RuntimeException("Send failure", e);
         }
+
+        if (random.nextInt(10) == 0) {
+            throw new RuntimeException("Simulated failure 3 (after send)");
+        }
     }
-
-
-
-
 }

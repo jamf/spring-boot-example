@@ -16,8 +16,8 @@ public class GreetingsConsumer {
 
     private final BlockingQueue<Greeting> queue = new LinkedBlockingQueue<>();
 
-    // This is "broadcast" so no group ID specified
-    @KafkaListener(topics = "greetings", clientIdPrefix = "greetings", containerFactory = "kafkaListenerContainerFactory")
+    // This is "broadcast" so no group ID specified. The default uses spring.kafka.consumer.group-id=server-${server.port} so it is different cross servers
+    @KafkaListener(topics = "greetings")
     public void listenGreetings(@Payload Greeting greeting,
                                 @Header(KafkaHeaders.RECEIVED_PARTITION) int partition,
                                 @Header(KafkaHeaders.GROUP_ID) String groupId,

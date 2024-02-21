@@ -15,11 +15,14 @@ public class KafkaTopicConfig {
 
     @Value(value = "${spring.kafka.bootstrap-servers}")
     private String bootstrapAddress;
+    @Value(value = "${spring.kafka.client-id}")
+    private String clientId;
 
     @Bean
     public KafkaAdmin kafkaAdmin() {
         Map<String, Object> configs = new HashMap<>();
         configs.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
+        configs.put(AdminClientConfig.CLIENT_ID_CONFIG, clientId);
         KafkaAdmin kafkaAdmin = new KafkaAdmin(configs);
         // If we want to stop Spring startup in case Kafka is not available
         kafkaAdmin.setFatalIfBrokerNotAvailable(true);

@@ -3,6 +3,8 @@ package com.zecops.example;
 import com.zecops.example.dto.Greeting;
 import com.zecops.example.dto.Upload;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
+import org.apache.kafka.clients.consumer.OffsetResetStrategy;
+import org.apache.kafka.common.IsolationLevel;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,6 +17,7 @@ import org.springframework.kafka.listener.ContainerProperties;
 import org.springframework.kafka.support.serializer.JsonDeserializer;
 
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 @EnableKafka
@@ -34,7 +37,8 @@ public class KafkaConsumerConfig {
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
         props.put(ConsumerConfig.GROUP_ID_CONFIG, "server-" + serverPort);
         props.put(ConsumerConfig.CLIENT_ID_CONFIG, clientId);
-        props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
+        props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, OffsetResetStrategy.EARLIEST.toString());
+        props.put(ConsumerConfig.ISOLATION_LEVEL_CONFIG, IsolationLevel.READ_COMMITTED.toString().toLowerCase(Locale.ROOT));
         return new DefaultKafkaConsumerFactory<>(props, new StringDeserializer(), new JsonDeserializer<>(Greeting.class));
     }
 
@@ -50,9 +54,10 @@ public class KafkaConsumerConfig {
     public ConsumerFactory<String, Upload> consumerFactoryForUploads() {
         Map<String, Object> props = new HashMap<>();
         props.put(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapAddress);
-        props.put(ConsumerConfig.GROUP_ID_CONFIG, "group"); // This is just default and should be overridden by @KafkaListener annotation
+        props.put(ConsumerConfig.GROUP_ID_CONFIG, "dummy-group"); // This is just default and should be overridden by @KafkaListener annotation. It is here for debugging.
         props.put(ConsumerConfig.CLIENT_ID_CONFIG, clientId);
-        props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, "earliest");
+        props.put(ConsumerConfig.AUTO_OFFSET_RESET_CONFIG, OffsetResetStrategy.EARLIEST.toString());
+        props.put(ConsumerConfig.ISOLATION_LEVEL_CONFIG, IsolationLevel.READ_COMMITTED.toString().toLowerCase(Locale.ROOT));
         return new DefaultKafkaConsumerFactory<>(props, new StringDeserializer(), new JsonDeserializer<>(Upload.class));
     }
 
@@ -60,7 +65,7 @@ public class KafkaConsumerConfig {
     public ConcurrentKafkaListenerContainerFactory<String, Upload> kafkaListenerContainerFactoryForUploads() {
         ConcurrentKafkaListenerContainerFactory<String, Upload> factory = new ConcurrentKafkaListenerContainerFactory<>();
         factory.setConsumerFactory(consumerFactoryForUploads());
-        // This is not very efficient but reduces the chance of duplications when a consumer abruptly goes down.
+        // This is not very efficient but prevents replaying an entire batch if a transaction fails, so for long transactions this is expected to be actually faster.
         factory.getContainerProperties().setAckMode(ContainerProperties.AckMode.RECORD);
         return factory;
     }
