@@ -65,6 +65,17 @@ public class KafkaConsumerConfig {
     public ConcurrentKafkaListenerContainerFactory<String, Upload> kafkaListenerContainerFactoryForUploads() {
         ConcurrentKafkaListenerContainerFactory<String, Upload> factory = new ConcurrentKafkaListenerContainerFactory<>();
         factory.setConsumerFactory(consumerFactoryForUploads());
+        factory.setConcurrency(4);
+        // This is not very efficient but prevents replaying an entire batch if a transaction fails, so for long transactions this is expected to be actually faster.
+        factory.getContainerProperties().setAckMode(ContainerProperties.AckMode.RECORD);
+        return factory;
+    }
+
+    // This is single threaded
+    @Bean
+    public ConcurrentKafkaListenerContainerFactory<String, Upload> kafkaListenerContainerFactoryForVerifier() {
+        ConcurrentKafkaListenerContainerFactory<String, Upload> factory = new ConcurrentKafkaListenerContainerFactory<>();
+        factory.setConsumerFactory(consumerFactoryForUploads());
         // This is not very efficient but prevents replaying an entire batch if a transaction fails, so for long transactions this is expected to be actually faster.
         factory.getContainerProperties().setAckMode(ContainerProperties.AckMode.RECORD);
         return factory;

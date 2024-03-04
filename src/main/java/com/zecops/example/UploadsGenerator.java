@@ -31,7 +31,7 @@ public class UploadsGenerator {
         scheduledExecutorService.shutdownNow();
     }
 
-    synchronized boolean startGenerator(int rate, int count) {
+    synchronized boolean startGenerator(int rate, int count, String targetTopic) {
         if (runningTask != null) {
             log.info("Already running");
             return false;
@@ -40,7 +40,7 @@ public class UploadsGenerator {
         AtomicInteger counter = new AtomicInteger(0);
         runningTask = scheduledExecutorService.scheduleAtFixedRate(() -> {
             Upload upload = new Upload(UUID.randomUUID(), counter.incrementAndGet(), false);
-            CompletableFuture<SendResult<String, Object>> future = kafkaTemplate.send("uploads", upload.getId().toString(), upload);
+            CompletableFuture<SendResult<String, Object>> future = kafkaTemplate.send(targetTopic /*"uploads"*/, upload.getId().toString(), upload);
             future.whenComplete((result, ex) -> {
                 if (ex == null) {
                     log.info("Sent upload {} serial {} to partition {} offset {}.", upload.getId(), upload.getSerial(), result.getRecordMetadata().partition(), result.getRecordMetadata().offset());

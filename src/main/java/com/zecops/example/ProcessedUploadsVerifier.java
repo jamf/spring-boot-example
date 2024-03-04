@@ -22,7 +22,7 @@ public class ProcessedUploadsVerifier {
     private volatile int lastReceivedSerial = 0;
     private volatile boolean unprocessedDetected = false;
 
-    @KafkaListener(topics = "uploads-processed", groupId = "processed-uploads-validator", containerFactory = "kafkaListenerContainerFactoryForUploads", clientIdPrefix = "${spring.kafka.client-id}-uploadsVerifier")
+    @KafkaListener(topics = "uploads-processed", groupId = "processed-uploads-validator", containerFactory = "kafkaListenerContainerFactoryForVerifier", clientIdPrefix = "${spring.kafka.client-id}-uploadsVerifier")
     public void processUploads(@Payload Upload upload,
                                @Header(KafkaHeaders.RECEIVED_PARTITION) int partition,
                                @Header(KafkaHeaders.RECEIVED_KEY) String key,

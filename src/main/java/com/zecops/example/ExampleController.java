@@ -73,8 +73,8 @@ public class ExampleController {
     }
 
     @PostMapping("generateUploads")
-    public ResponseEntity<?> generateUploads(@RequestParam("rate") int rate, @RequestParam("number") int number) {
-        boolean submitted = uploadsGenerator.startGenerator(rate, number);
+    public ResponseEntity<?> generateUploads(@RequestParam("rate") int rate, @RequestParam("number") int number, @RequestParam(value = "forStreams", defaultValue = "false") boolean forStreams) {
+        boolean submitted = uploadsGenerator.startGenerator(rate, number, forStreams ? "uploads-stream" : "uploads");
         if (submitted) {
             return ResponseEntity.status(HttpStatus.ACCEPTED).build();
         }

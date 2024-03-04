@@ -40,7 +40,17 @@ public class KafkaTopicConfig {
     }
 
     @Bean
+    public NewTopic uploadsStreamTopic() {
+        return new NewTopic("uploads-stream", 5, (short) 1);
+    }
+
+    @Bean
     public NewTopic uploadsProcessesTopic() {
         return new NewTopic("uploads-processed", 5, (short) 1);
+    }
+
+    @Bean
+    public NewTopic uploadsStreamsProcessesTopic() {
+        return new NewTopic("uploads-stream-processed", 5, (short) 1);
     }
 }
