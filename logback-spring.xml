@@ -2,36 +2,90 @@
 
 <configuration scanPeriod="30 seconds" scan="true">
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
+    <contextName>${service.name}</contextName>
 
-    <property value="spring-boot-example.log" name="LOG_FILE"/>
     <property value="10MB" name="LOG_FILE_MAX_SIZE"/>
-    <property value="8GB" name="TOTAL_SIZE_CAP"/>
+    <property value="200MB" name="JSON_LOG_FILE_MAX_SIZE"/>
+    <property value="2GB" name="LOG_FILE_TOTAL_SIZE_CAP"/>
+    <property value="2GB" name="JSON_LOG_FILE_TOTAL_SIZE_CAP"/>
     <property value="20000" name="LOG_FILE_MAX_HISTORY"/>
 
-    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <encoder>
-            <pattern>${FILE_LOG_PATTERN}</pattern>
-        </encoder>
-        <file>${LOG_PATH}/${LOG_FILE}</file>
-        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
-            <fileNamePattern>${LOG_PATH}/${LOG_FILE}.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
-            <maxFileSize>${LOG_FILE_MAX_SIZE:-10MB}</maxFileSize>
-            <maxHistory>${LOG_FILE_MAX_HISTORY:-0}</maxHistory>
-            <totalSizeCap>${TOTAL_SIZE_CAP:-0}</totalSizeCap>
-        </rollingPolicy>
-    </appender>
-    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-        <encoder>
-            <pattern>${FILE_LOG_PATTERN}</pattern>
-        </encoder>
-    </appender>
+    <property name="TEXT_LOGGING_ENABLED" value="true"/>
+    <property name="JSON_LOGGING_ENABLED" value="true"/>
 
-    <logger name="com.zecops" level="INFO" additivity="false">
-        <appender-ref ref="FILE"/>
-        <appender-ref ref="STDOUT"/>
-    </logger>
-    <root level="INFO">
-        <appender-ref ref="FILE"/>
-        <appender-ref ref="STDOUT"/>
-    </root>
+    <!-- "logging_*" are the environment variables that control writing logs to text files or to a single json file.
+    By default both types are enabled. Only explicitly setting a variable to "false" disables that file type. -->
+    <if condition='property("logging_textLoggingEnabled").equals("false")'>
+        <then>
+            <property name="TEXT_LOGGING_ENABLED" value="false"/>
+        </then>
+    </if>
+    <if condition='property("logging_jsonLoggingEnabled").equals("false")'>
+        <then>
+            <property name="JSON_LOGGING_ENABLED" value="false"/>
+        </then>
+    </if>
+
+    <if condition='property("TEXT_LOGGING_ENABLED").equals("true")'>
+        <then>
+            <property value="${service.name}.log" name="LOG_FILE"/>
+            <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <encoder>
+                    <pattern>${FILE_LOG_PATTERN}</pattern>
+                </encoder>
+                <file>${LOG_PATH}/${LOG_FILE}</file>
+                <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+                    <cleanHistoryOnStart>${LOG_FILE_CLEAN_HISTORY_ON_START:-false}</cleanHistoryOnStart>
+                    <fileNamePattern>${LOG_PATH}/${LOG_FILE}.%d{yyyy-MM-dd}.%i.gz}</fileNamePattern>
+                    <maxFileSize>${LOG_FILE_MAX_SIZE:-10MB}</maxFileSize>
+                    <maxHistory>${LOG_FILE_MAX_HISTORY:-0}</maxHistory>
+                    <totalSizeCap>${LOG_FILE_TOTAL_SIZE_CAP:-0}</totalSizeCap>
+                </rollingPolicy>
+            </appender>
+        </then>
+    </if>
+    <if condition='property("JSON_LOGGING_ENABLED").equals("true")'>
+        <then>
+            <property value="${service.name}.json" name="JSON_LOG_FILE"/>
+            <appender name="JSON-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+                <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+                    <layout class="ch.qos.logback.contrib.json.classic.JsonLayout">
+                        <timestampFormat>yyyy-MM-dd'T'HH:mm:ss.SSSX</timestampFormat>
+                        <timestampFormatTimezoneId>Etc/UTC</timestampFormatTimezoneId>
+                        <appendLineSeparator>true</appendLineSeparator>
+                        <jsonFormatter class="ch.qos.logback.contrib.jackson.JacksonJsonFormatter"/>
+                    </layout>
+                </encoder>
+                <file>${LOG_PATH}/${JSON_LOG_FILE}</file>
+                <append>true</append>
+                <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+                    <fileNamePattern>${LOG_PATH}/${JSON_LOG_FILE}.%d{yyyy-MM-dd}.%i.gz</fileNamePattern>
+                    <maxFileSize>${JSON_LOG_FILE_MAX_SIZE:-200MB}</maxFileSize>
+                    <maxHistory>${LOG_FILE_MAX_HISTORY:-0}</maxHistory>
+                    <totalSizeCap>${JSON_LOG_FILE_TOTAL_SIZE_CAP:-0}</totalSizeCap>
+                </rollingPolicy>
+            </appender>
+        </then>
+    </if>
+
+    <if condition='property("TEXT_LOGGING_ENABLED").equals("true")'>
+        <then>
+            <logger name="com.zecops" level="INFO" additivity="false">
+                <appender-ref ref="FILE"/>
+            </logger>
+            <root level="INFO">
+                <appender-ref ref="FILE"/>
+            </root>
+        </then>
+    </if>
+    <if condition='property("JSON_LOGGING_ENABLED").equals("true")'>
+        <then>
+            <logger name="com.zecops" level="INFO" additivity="false">
+                <appender-ref ref="JSON-FILE"/>
+            </logger>
+            <root level="INFO">
+                <appender-ref ref="JSON-FILE"/>
+            </root>
+        </then>
+    </if>
 </configuration>

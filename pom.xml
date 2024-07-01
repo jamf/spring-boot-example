@@ -13,7 +13,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <service.name>spring-boot-example</service.name>
-        <spring.boot.version>3.1.5</spring.boot.version>
+        <spring.boot.version>3.2.2</spring.boot.version>
     </properties>
 
     <dependencies>
@@ -34,10 +34,63 @@
             </exclusions>
         </dependency>
         <dependency>
-            <!-- Override the version brought by Spring which has a vulnerability -->
-            <groupId>org.yaml</groupId>
-            <artifactId>snakeyaml</artifactId>
-            <version>2.2</version>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-sync</artifactId>
+            <version>5.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback.contrib</groupId>
+            <artifactId>logback-json-classic</artifactId>
+            <version>0.1.5</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>ch.qos.logback</groupId>
+                    <artifactId>logback-classic</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>ch.qos.logback</groupId>
+                    <artifactId>logback-core</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback.contrib</groupId>
+            <artifactId>logback-jackson</artifactId>
+            <version>0.1.5</version>
+        </dependency>
+        <!-- Support conditional processing in Logback configuration -->
+        <dependency>
+            <groupId>org.codehaus.janino</groupId>
+            <artifactId>janino</artifactId>
+            <version>3.1.10</version>
+        </dependency>
+
+
+
+        <!--Tests dependencies-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>${spring.boot.version}</version>
+            <scope>test</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.14.0</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -104,6 +157,7 @@
                                         <include>application.properties</include>
                                         <include>logback-spring.xml</include>
                                         <include>${service.name}</include>
+                                        <include>install.sh</include>
                                         <include>README.md</include>
                                     </includes>
                                 </resource>
@@ -114,4 +168,53 @@
             </plugin>
         </plugins>
     </build>
+    <profiles>
+        <profile>
+            <id>chmod-linux-scripts</id>
+            <activation>
+                <os>
+                    <family>!windows</family>
+                </os>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>3.1.0</version>
+                        <executions>
+                            <execution>
+                                <id>install-script-chmod</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <configuration>
+                                    <executable>chmod</executable>
+                                    <arguments>
+                                        <argument>+x</argument>
+                                        <argument>${project.build.directory}/dist/install.sh</argument>
+                                    </arguments>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>service-script-chmod</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <configuration>
+                                    <executable>chmod</executable>
+                                    <arguments>
+                                        <argument>+x</argument>
+                                        <argument>${project.build.directory}/dist/${service.name}</argument>
+                                    </arguments>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 </project>

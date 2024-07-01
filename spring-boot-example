@@ -1,0 +1,145 @@
+#!/bin/bash
+
+# Generic service-like startup script for Java processes
+
+#Configure these variables
+service_display_name="spring-boot-example"
+java_main_class="com.zecops.example.ExampleApplication"
+service_log_file="log/spring-boot-example-service.log"
+wait_before_force_stop_seconds=70
+
+base_dir=$(dirname "$(readlink -f "$0")")
+java_opts="-Xmx6g -Dlogging.config=$base_dir/logback-spring.xml -Dinstall.dir=$base_dir -Dlogging.file.path=$base_dir/log -Dservice.name=$service_display_name"
+java_arguments=
+relative_classpath="lib/*"
+jmx_opts="-Dcom.sun.management.jmxremote.port=9999 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Djava.rmi.server.hostname=127.0.0.1"
+debug_opts="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=5005"
+
+
+#No need to configure anything below this line
+
+install_dir=$(dirname "$(readlink -f "$0")")
+
+if [ "$2" == "-jmx" -o "$3" == "-jmx" ]; then
+    jmx=" $jmx_opts"
+fi
+if [ "$2" == "-debug" -o "$3" == "-debug" ]; then
+    debug=" $debug_opts"
+fi
+if [ -n "$java_arguments" ]; then
+    java_arguments=" $java_arguments"
+fi
+java_cmd="java -cp '$install_dir/$relative_classpath' $java_opts$debug$jmx $java_main_class$java_arguments"
+
+function getPid() {
+	echo "$(ps -ef | grep $java_main_class | grep -v "grep" | awk '{print $2}')"
+}
+
+function getTimestamp() {
+    echo "$(date +"%Y-%m-%d %T")"
+}
+
+function startService() {
+	pid=$(getPid)
+	if [ -n "$pid" ]; then
+		echo "$service_display_name is already running."
+		RETVAL=0
+		return 0
+	fi
+	echo "Starting $service_display_name..."
+	mkdir -p "$(dirname "$install_dir/$service_log_file")"
+	echo "$(getTimestamp) - Starting $service_display_name..." >>$install_dir/$service_log_file
+	eval $java_cmd >>$install_dir/$service_log_file 2>&1 &
+	sleep 1
+	pid=$(getPid)
+
+   	if [ -z "$pid" ]; then
+		echo "Failed starting $service_display_name !"
+		echo "$(getTimestamp) - Failed starting $service_display_name !" >>$install_dir/$service_log_file
+		RETVAL=1
+   	else
+		echo "Successfully started $service_display_name"
+		echo "$(getTimestamp) - Successfully started $service_display_name" >>$install_dir/$service_log_file
+		RETVAL=0
+	fi
+}
+
+function stopService() {
+	pid=$(getPid)
+	if [ -z "$pid" ]; then
+		echo "$service_display_name is already stopped."
+		RETVAL=0
+		return 0
+	fi
+	echo "Stopping $service_display_name..."
+	echo "$(getTimestamp) - Stopping $service_display_name..." >>$install_dir/$service_log_file
+	kill -SIGTERM $pid
+	sleep 1
+	pid=$(getPid)
+	counter=0
+	while [ -n "$pid" -a $counter -lt $wait_before_force_stop_seconds ]; do
+		echo "waiting to stop..."
+		sleep 1
+		pid=$(getPid)
+		let counter=counter+1
+	done
+
+   	if [ -z "$pid" ]; then
+		echo "Service $service_display_name stopped."
+		echo "$(getTimestamp) - Service $service_display_name stopped." >>$install_dir/$service_log_file
+		RETVAL=0
+   	else
+		echo "Going to kill PID $pid"
+		kill -SIGKILL $pid
+		sleep 1
+		pid=$(getPid)
+   		if [ -z "$pid" ]; then
+			echo "Service $service_display_name was forcibly stopped."
+			echo "$(getTimestamp) - Service $service_display_name was forcibly stopped." >>$install_dir/$service_log_file
+			RETVAL=2
+   		else
+			echo "Unable to kill service $service_display_name"
+			echo "$(getTimestamp) - Unable to kill service $service_display_name" >>$install_dir/$service_log_file
+			RETVAL=1
+   		fi
+   	fi
+}
+
+function checkServiceStatus() {
+    local pid=$(getPid)
+    echo -n "$service_display_name is "
+    if [ -z "$pid" ]; then
+        echo "stopped"
+        RETVAL=3
+    else
+        echo "running (PID = $pid)"
+        RETVAL=0
+   fi
+   return 0;
+}
+
+
+function main() {
+   RETVAL=0
+   case "$1" in
+      start)
+         startService
+         ;;
+      stop)
+         stopService
+         ;;
+      restart)
+         stopService && startService
+         ;;
+      status)
+         checkServiceStatus
+         ;;
+      *)
+         echo "Usage: $0 {start|stop|restart|status}"
+         exit 1
+         ;;
+      esac
+   exit $RETVAL
+}
+
+main $1
