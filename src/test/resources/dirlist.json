@@ -1,0 +1,5256 @@
+{
+    "id" : "bd66e428-ba2b-c2f5-c07d-876184b10c5c_f9116d04a758a7e06ca075ce7f1ad3cfa83983f895171cc809ca0f38559aef64",
+    "dbId" : "bd66e428-ba2b-c2f5-c07d-876184b10c5c_f9116d04a758a7e06ca075ce7f1ad3cfa83983f895171cc809ca0f38559aef64",
+    "dateTime" : 1669449208000,
+    "dateTimeString" : "Sat Nov 26 07:53:28 UTC 2022",
+    "fileType" : "dirlist",
+    "eventType" : "Files List",
+    "fileName" : "zecops_dirlist_remote.txt",
+    "folderName" : "default/extracted/5153f171-051c-4d7d-9e0f-d6fc6b8c4d68",
+    "fileTimeStamp" : 1669449208000,
+    "fileHash" : "+RFtBKdYp+BsoHXOfxrTz6g5g/iVFxzICcoPOFWa72Q=",
+    "uploadId" : "5153f171-051c-4d7d-9e0f-d6fc6b8c4d68",
+    "uploadTimestamp" : 1669449228854,
+    "uploadReason" : "Periodic Remote Inspection",
+    "inspectionType" : "Remote Inspection",
+    "deviceId" : "bd66e428-ba2b-c2f5-c07d-876184b10c5c",
+    "deviceAlias" : "Itzik's iPhone 14 pro",
+    "platform" : "iOS",
+    "incidentSeverity" : 0,
+    "fileSystemPaths" : [
+      {
+        "path" : "/.ba"
+      },
+      {
+        "path" : "/.file"
+      },
+      {
+        "path" : "/.mb"
+      },
+      {
+        "path" : "/Applications"
+      },
+      {
+        "path" : "/Developer"
+      },
+      {
+        "path" : "/Library"
+      },
+      {
+        "path" : "/System"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/bootps.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ABDatabaseDoctor.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.AdminLite.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.AppSSODaemon.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.AppleCredentialManagerDaemon.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.AssetCacheLocatorService.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.AuthenticationServicesCore.AuthenticationServicesAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.BTServer.avrcp.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.BTServer.le.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.BTServer.map.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.BTServer.pbap.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.BarcodeSupport.BarcodeNotificationService.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.BlueTool.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.CallHistorySyncHelper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.CarPlayApp.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ClarityBoard.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ClipServices.clipserviced.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.CloudSettingsSyncAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.CommCenter-noncellular.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.CommCenter.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.CommCenterMobileHelper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.CommCenterRootHelper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.CoreAuthentication.daemon.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.DMHelper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.DataDetectorsSourceAccess.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.DesktopServicesHelper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.DragUI.druid.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.DumpBasebandCrash.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.DumpPanic.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.EscrowSecurityAlert.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.FamilyControlsAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.FileCoordination.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.FileProvider.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.GSSCred.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.GameController.gamecontrollerd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.IOAccelMemoryInfoCollector.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.MTLAssetUpgraderD.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ManagedSettingsAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.Maps.geocorrectiond.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.Maps.pushdaemon.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.MobileFileIntegrity.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.MobileInternetSharing.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.NetworkLinkConditioner.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.OTACrashCopier.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.OTATaskingAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.PerfPowerServicesExtended.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.PointerUI.pointeruid.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.PowerUIAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ProxiedCrashCopier.ProxyingDevice.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.PurpleReverseProxy.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.RemoteManagementAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ReportCrash.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ReportMemoryException.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.RestoreRemoteServices.restoreserviced.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.SCHelper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.Safari.History.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.Safari.SafeBrowsing.Service.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.Safari.passwordbreachd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.SafariBookmarksSyncAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ScreenTimeAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.SecureBackupDaemon.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.SensorKitALSHelper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.SpringBoard.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.StatusKitAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.SyncAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.TextInput.kbd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ThreadCommissionerService.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.UsageTrackingAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.UserEventAgent-System.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.VoiceOverTouch.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.WebBookmarks.webbookmarksd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.WirelessRadioManager.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.abm-helper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.absd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.accessibility.axassetsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.accessibility.axremoted.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.accessibility.heard.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.accessibility.motiontrackingd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.accessoryd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.accessoryupdaterd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.accountsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.activityawardsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.adid.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.afcd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.aggregated.addaily.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.aggregated.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.akd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.amsaccountsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.amsengagementd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.analyticsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.and.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.aned.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.announced.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.anomalydetectiond.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ap.adprivacyd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ap.promotedcontentd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.appleaccountd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.applecamerad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.appleh13camerad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.appstorecomponentsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.appstored.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.apsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.arkitd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.asd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.askpermissiond.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.aslmanager.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.assetsd.nebulad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.assetsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.assistant_service.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.assistantd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.assistivetouchd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.atc.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.avatarsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.avconferenced.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.awdd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.backboardd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.backgroundassets.user.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.backupd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.batteryintelligenced.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.betaenrollmentd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.biomed.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.biomesyncd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.biometrickitd.pearl.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.bird.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.bluetoothd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.bluetoothuiservice.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.bluetoothuserd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.bookassetd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.bookdatastored.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.businessservicesd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.cache_delete.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.calaccessd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.captiveagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.carkitd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.cdpd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.certui.relay.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.cfnetwork.AuthBrokerAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.cfnetwork.cfnetworkagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.cfprefsd.xpc.daemon.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.cfprefsd.xpc.daemon.system.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.checkerboard.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.checkerboardd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.chronod.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ckdiscretionaryd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.cloudd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.cloudpaird.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.cloudphotod.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.cmfsyncagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.commandandcontrol.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.companion_proxy.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.companionauthd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.configd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.contacts.donation-agent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.contactsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.containermanagerd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.containermanagerd.system.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.contextstored.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.coordinated.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.corecaptured.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.coredatad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.coreduetd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.coreidvd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.coreparsec.silhouette.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.corerepaird.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.coreservices.useractivityd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.corespeechd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.corespotlightservice.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.coresymbolicationd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.countryd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.crash_mover.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.crashreportcopymobile.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ctkd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dasd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dataaccess.dataaccessd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.datastored.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.deferredmediad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.deleted_helper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.device-o-matic.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.deviceaccessd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.devicecheckd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.devicedataresetd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.devicemanagementclient.mdmd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.devicemanagementclient.teslad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dhcp6d.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.diagnosticd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.diagnosticextensionsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dietapplecamerad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dietappleh13camerad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.diskarbitrationd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.diskimagesiod.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.diskimagesiod.ram.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.distnoted.xpc.daemon.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dmd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.donotdisturbd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dprivacyd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.driverkitd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dt.AutomationModeUI.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dt.automationmode-writer.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dt.fetchsymbolsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dt.previewsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.dt.remotepairingdeviced.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.duetexpertd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.email.maild.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.exchangesyncd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.facemetricsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.fairplayd.H2.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.fairplaydeviceidentityd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.familycircled.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.familynotificationd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.fdrhelper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.filesystems.apfs_iosd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.filesystems.livefileproviderd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.filesystems.smbclientd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.filesystems.userfs_helper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.filesystems.userfsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.financed.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.fitcore.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.fitcore.session.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.fitnesscoachingd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.followupd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.fontservicesd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.fs_task_scheduler.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.fseventsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ftp-proxy-embedded.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.fullkeyboardaccess.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.fusiond.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.gamed.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.geod.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.gpsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.griddatad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.handwritingd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.hangreporter.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.hangtracerd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.healthappd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.healthd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.healthrecordsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.homed.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.iap2d.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.iapauthd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.iapd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.icloud.findmydeviced.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.icloud.fmfd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.icloud.fmflocatord.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.icloud.searchpartyd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.icloudsubscriptionoptimizerd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.iconservices.iconservicesagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.idamd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.idcredd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.identityservicesd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.idscredentialsagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.idsremoteurlconnectionagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.imagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.imautomatichistorydeletionagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.imtransferagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.inboxupdaterd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ind.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.installcoordination_proxy.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.installcoordinationd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.intelligenceplatformd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.iomfb_bics_daemon.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.iomfb_fdr_loader.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.iosdiagnosticsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ioupsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.itunescloudd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.itunesstored.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.jetsamproperties.D73.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.knowledgeconstructiond.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.languageassetd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.linkd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.localizationswitcherd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.locationd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.locationpushd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.logd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.logd_helper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.lsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.lsd.system.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.lskdd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mDNSResponder.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mDNSResponderHelper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.managedconfiguration.passcodenagd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.managedconfiguration.profiled.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.maps.destinationd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.matd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mdt.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mediaanalysisd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mediaanalysisd.service.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mediaartworkd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.medialibraryd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mediaparserd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mediaremoted.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mediaserverd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mediasetupd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mediastream.mstreamd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.memory-maintenance.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.merchantd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.metrickitd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.midiserver-ios.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.misagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mlmodelingd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mlruntimed.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.MCInstall.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.assertion_agent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.cache_delete_app_container_caches.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.cache_delete_daily.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.cache_delete_mobile_backup.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.heartbeat.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.house_arrest.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.insecure_notification_proxy.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.installd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.keybagd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.lockdown.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.notification_proxy.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.obliteration.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.softwareupdated.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.storage_mounter.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.storage_mounter_proxy.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile.usermanagerd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobile_installation_proxy.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobileactivationd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobileassetd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobilebackup2.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobilecheckpoint.checkpointd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobilegestalt.xpc.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobilerepaird.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobilestoredemod.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobilestoredemodhelper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mobiletimerd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.momentsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.mtmergeprops.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nand.aspcarry.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nand_task_scheduler.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nanobackupd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nanoprefsyncd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nanoregistryd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nanoregistrylaunchd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nanotimekitcompaniond.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.naturallanguaged.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.navd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ndoagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.neagent-ios.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nearbyd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nehelper-embedded.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nesessionmanager.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.networkserviceproxy.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.newsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nexusd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nfcacd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nfcd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nfrestore.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.notifyd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.nsurlsessiond.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.online-auth-agent.xpc.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.osanalytics.osanalyticshelper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ospredictiond.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.parsec-fbf.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.parsecd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.passd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.pasteboard.pasted.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.pcapd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.peakpowermanagerd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.peopled.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.perfdiagsselfenabled.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.pfd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.photoanalysisd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.photos.ImageConversionService.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.photos.VideoConversionService.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.pipelined.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.pluginkit.pkd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.pluginkit.pkreporter.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.powerd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.powerdatad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.powerlogHelperd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.preboardservice.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.preboardservice_v2.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.printd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.privacyaccountingd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.proactiveeventtrackerd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.progressd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.protectedcloudstorage.protectedcloudkeysyncing.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.proximitycontrold.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ptpcamerad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.ptpd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.purplebuddy.budd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.quicklook.ThumbnailsAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.racoon.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.rapportd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.recentsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.relatived.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.remindd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.remoted.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.remotemanagementd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.replayd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.retimerd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.reversetemplated.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.revisiond.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.routined.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.rtcreportingd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.runningboardd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.safarifetcherd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.safetyalertsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.screensharingserver.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.scrod.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.searchd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.security.CircleJoinRequested.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.security.cloudkeychainproxy3.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.security.cryptexd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.security.swcagent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.securityd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.securityuploadd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.seld.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sensorkitd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.seserviced.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sessionkitd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sharingd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.shazamd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sidecar-relay.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.signpost.signpost_reporter.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.siriactionsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.siriinferenced.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.siriknowledged.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sirittsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sleepd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sntpd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sociallayerd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.softposreaderd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.softwareupdateservicesd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sosd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.speechmodeltrainingd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.spindump.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.splashboardd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sportsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.spotlight.IndexAgent.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.spotlightknowledged.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.storagedatad.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.storagekitd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.storebookkeeperd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.storekitd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.streaming_zip_conduit.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.subridged.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.suggestd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.swcd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.symptomsd-diag.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.symptomsd.helper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.symptomsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.synapse.contentlinkingd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.syncdefaultsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sysdiagnose.darwinos.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sysdiagnose.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.sysdiagnose_helper.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.syslogd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.systemstats.microstackshot_periodic.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.tailspind.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.tccd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.telephonyutilities.callservicesd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.terminusd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.thermalmonitord.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.timed.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.timesync.audioclocksyncd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.timezoneupdates.tzd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.tipsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.touchsetupd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.translationd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.transparencyd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.triald.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.trustd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.tvremoted.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.tzlinkd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.uikit.eyedropperd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.usb.networking.addNetworkInterface.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.usbsmartcardreaderd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.videosubscriptionsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.voiced.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.voicemail.vmd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.voicememod.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.watchdogd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.watchlistd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.watchpresenced.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.wcd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.weatherd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.webinspectord.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.webkit.adattributiond.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.webkit.webpushd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.wifi.hostapd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.wifi.wapic.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.wifiFirmwareLoader.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.wifianalyticsd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.wifid.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.wifip2pd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.wifivelocityd.plist"
+      },
+      {
+        "path" : "/System/Library/LaunchDaemons/com.apple.xpc.roleaccountd.plist"
+      },
+      {
+        "path" : "/bin"
+      },
+      {
+        "path" : "/bin/df"
+      },
+      {
+        "path" : "/bin/ps"
+      },
+      {
+        "path" : "/cores"
+      },
+      {
+        "path" : "/dev"
+      },
+      {
+        "path" : "/etc"
+      },
+      {
+        "path" : "/etc/asl"
+      },
+      {
+        "path" : "/etc/asl.conf"
+      },
+      {
+        "path" : "/etc/group"
+      },
+      {
+        "path" : "/etc/hosts"
+      },
+      {
+        "path" : "/etc/hosts.equiv"
+      },
+      {
+        "path" : "/etc/master.passwd"
+      },
+      {
+        "path" : "/etc/networks"
+      },
+      {
+        "path" : "/etc/notify.conf"
+      },
+      {
+        "path" : "/etc/passwd"
+      },
+      {
+        "path" : "/etc/ppp"
+      },
+      {
+        "path" : "/etc/protocols"
+      },
+      {
+        "path" : "/etc/racoon"
+      },
+      {
+        "path" : "/etc/services"
+      },
+      {
+        "path" : "/etc/ttys"
+      },
+      {
+        "path" : "/private"
+      },
+      {
+        "path" : "/private/var/.DocumentRevisions-V100"
+      },
+      {
+        "path" : "/private/var/.fseventsd"
+      },
+      {
+        "path" : "/private/var/.overprovisioning_file"
+      },
+      {
+        "path" : "/private/var/Keychains"
+      },
+      {
+        "path" : "/private/var/Managed Preferences"
+      },
+      {
+        "path" : "/private/var/MobileAsset"
+      },
+      {
+        "path" : "/private/var/MobileDevice"
+      },
+      {
+        "path" : "/private/var/MobileSoftwareUpdate"
+      },
+      {
+        "path" : "/private/var/audit"
+      },
+      {
+        "path" : "/private/var/buddy"
+      },
+      {
+        "path" : "/private/var/containers"
+      },
+      {
+        "path" : "/private/var/containers/Bundle"
+      },
+      {
+        "path" : "/private/var/containers/Data"
+      },
+      {
+        "path" : "/private/var/containers/Shared"
+      },
+      {
+        "path" : "/private/var/containers/Temp"
+      },
+      {
+        "path" : "/private/var/datamigrator"
+      },
+      {
+        "path" : "/private/var/db"
+      },
+      {
+        "path" : "/private/var/dextcores"
+      },
+      {
+        "path" : "/private/var/dirs_cleaner"
+      },
+      {
+        "path" : "/private/var/empty"
+      },
+      {
+        "path" : "/private/var/folders"
+      },
+      {
+        "path" : "/private/var/hardware"
+      },
+      {
+        "path" : "/private/var/installd"
+      },
+      {
+        "path" : "/private/var/keybags"
+      },
+      {
+        "path" : "/private/var/log"
+      },
+      {
+        "path" : "/private/var/logs"
+      },
+      {
+        "path" : "/private/var/mobile"
+      },
+      {
+        "path" : "/private/var/mobile/.ssh"
+      },
+      {
+        "path" : "/private/var/mobile/Applications"
+      },
+      {
+        "path" : "/private/var/mobile/Containers"
+      },
+      {
+        "path" : "/private/var/mobile/Documents"
+      },
+      {
+        "path" : "/private/var/mobile/Downloads"
+      },
+      {
+        "path" : "/private/var/mobile/Library"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/${PRODUCT_NAME}.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/.GlobalPreferences.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/.GlobalPreferences_m.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/SafariCloudHistoryPushAgent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/TVRemoteConnectionService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/UITextInputContextIdentifiers.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/addaily.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/ch.ringwald.imbusysms.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/ckkeyrolld.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.AlonEzer.MeZeZe.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AMPIDService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AOSNotification.launchd"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AOSNotification.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AUDeveloperSettings.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Accessibility.Assets.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Accessibility.Collection.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Accessibility.GuidedAccess.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Accessibility.Magnifier.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Accessibility.SwitchControl.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Accessibility.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AccessibilityUIServer.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ActivitySharing.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AdLib.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AdPlatforms.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AdSheetPhone.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AirPlayRoutePrediction.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AppStore.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AppStoreComponents.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AppSupport.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AppleMediaServices.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AppleMediaServices.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AppleMediaServicesUI.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AssistantServices.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AssistiveTouch.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.AvatarUI.Staryu.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.BTServer.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.BatteryCenter.BatteryWidget.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Bridge.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CacheDelete.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CallHistorySyncHelper.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CarPlayApp.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Carousel.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CloudKit.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CloudSubscriptionFeatures.cache.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CloudSubscriptionFeatures.config.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CloudSubscriptionFeatures.geoCache.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ComfortSounds.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CoreAccessories.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CoreBehaviorRuleFeedback.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CoreBluetooth.cloud.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CoreBrightness.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CoreDuet.QueuedDenials.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CoreDuet.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.CrashReporter.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DPSubmissionService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DataActivation.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DataDeliveryServices.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DeepBreathing.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DiagnosticExtensions.extensionTracker.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DictionaryServices.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DocumentManager.defaults.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Duet.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DuetExpertCenter.AppPredictionExpert.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DuetExpertCenter.MagicalMoments.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DuetExpertCenter.TimelineRelevanceMetrics.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DuetHeuristic-BM.bsmdataprovider.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.DuetHeuristic-BM.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ET.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.EmojiCache.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.EmojiPreferences.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.EscrowSecurityAlert.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ExposureNotification.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.FamilyCircle.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.FamilyControlsAgent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Fitness.activity-widget.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Fitness.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.GEO.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.HearingAids.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.HeartRate.notifications.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.HeartRate.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Home.ControlCenter.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Home.group.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Home.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Home.wallpaper.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.IMCoreSpotlight.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ImageCaptureFramework.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.InCallService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Intents.UpcomingMediaManager.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.LaunchServices.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.LoadedConditionInducer.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MFAAuthentication.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MIDI.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Magnifier.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Maps.TransitWidget.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Maps.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MapsSuggestions.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MapsSupport.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MediaRemoteUI.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Messages.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileAsset.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileBackup.DemotedApps.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileBluetooth.debug.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileCoreServices"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileDeviceCrashCopy.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileInternetSharing.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileSMS.CKDNDList.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileSMS.firstLock.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileSMS.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileSMSPreview.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileSoftwareUpdate.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MobileStore.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Mobility.notifications.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.MultitouchSupport.crashReporter.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Music.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NTKFaceSnapshotService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoAudioControl.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoBackup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoMail.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoMusicSync.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoPhone.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoRegistry.NRLaunchNotificationController.volatile.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoRegistry.NRRootCommander.volatile.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoRegistry.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoTimeKit.daemon.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoTimeKit.face.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoTimeKitCompanion.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NanoUniverse.AegirProxyApp.AegirPoster.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.NewDeviceOutreach.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.OTACrashCopier.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Passbook.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.PeoplePicker.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.PersonalAudio.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Preferences.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.PrototypeTools.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ProximityControl.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Radio.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SMSBBPlugin.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SOS.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Safari.SafeBrowsing.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Safari.Support.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SafariBookmarksSyncAgent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SafariCloudHistoryPushAgent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ScreenTimeAgent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ScreenshotServicesService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Search.framework.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Security.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SetupAssistant.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SharedWebCredentials.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Sharing.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SiriViewService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SocialLayer.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SoundDetection.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SpeakSelection.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SpotlightFoundation.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.SpringBoard.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.StatusKitAgent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.TTY.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.TVRemoteConnectionService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.TelephonyUtilities.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.TelephonyUtilities.sharePlayAppPolicies.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.UIAutomation.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.UIKit.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.UsageTrackingAgent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.VideoSubscriberAccount.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.VoiceMemos.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.VoiceOverTouch.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.Wallet.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.WallpaperKit.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.WatchListKit.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.WebFoundation.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.WebSheet.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.WebUI.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.WirelessModemSettings.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.WirelessRadioManager.debug.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.WorkflowKit.BackgroundShortcutRunner.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ZoomTouch.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.able.internal.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.accessibility.AccessibilityUIServer.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.accessibility.controlcenter.hearingdevices.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.accessibility.heard.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.accessory.Hearing.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.accessoryd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.accounts.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.accountsd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.activityawardsd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.adtracking.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.aggregated.addaily.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.aggregated.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.airplay.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.akd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.amsengagementd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.animoji.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.announce.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.anomalydetectiond.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ap.adprivacyd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.appResume.freezerRecommendations.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.appleaccount.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.appleaccount.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.appleaccountd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.appstorecomponentsd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.appstored.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.aprs.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.apsd.launchd"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.apsd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.asd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.assetsd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.assistant.backedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.assistant.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.assistant.support.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.atc.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.avfoundation.frecents.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.backboardd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.behaviorminer.miningtask.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.bg.system.task.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.biomed.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.biomesyncd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.biometrickitd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.bird.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.bluetooth.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.bluetooth.settings.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.bluetoothuserd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.bookdatastored.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.bulletinboard.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.bulletindistributor.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.businesschatd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.businessservicesd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.cache_delete.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.calaccessd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.calculateframework.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.calculator.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.camera.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.cameracapture.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.cameracapture.volatile.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.carplay.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.celestial.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.certui.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.chronod.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ckdiscretionaryd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.cloud.quota.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.cloudd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.cloudpaird.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.cloudphotod.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.cmfsyncagent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.commcenter.shared.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.commcentermobilehelper.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.compass.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.conference.history.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.conference.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.contacts.donation-agent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.contextstored.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.contextsync.subscriptions.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.control-center.BluetoothModule.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.control-center.MuteModule.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.control-center.OrientationLockModule.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.control-center.WiFiModule.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.coordinated.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.coreaudio.device.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.coreaudio.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.coreduet.complications.pushLimits.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.coreduetd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.coreidv.coreidvd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.coremedia.bag.crabs.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.coremedia.bag.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.coremedia.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.corerecents.recentsd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.coreservices.useractivityd.dynamicuseractivites.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.coreservices.useractivityd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.corespotlightui.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.da.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.das.fairscheduling.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.dasd.dailyPeriodic.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.dasd.datacollectiontasks.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.dasd.dock.persistence.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.dasd.swapkills.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.dasd.widgetRefreshBudgets.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.dataaccess.babysitter.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.dataaccess.dataaccessd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.dataaccess.launchd"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.datamigrator.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.donotdisturbd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.duetactivityscheduler.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.duetactivityscheduler.plugin.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.duetexpertd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.email.maild.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.facetime.bag.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.facetime.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.facetime.sortmapping.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.fairplaydeviceidentityd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.fileproviderd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.financed.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.findmy.fmfcore.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.findmy.fmipcore.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.findmy.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.fitcored.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.fitnesscoachingd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.fontservicesd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.gamecenter.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.gamed.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.gamekit.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.handtool.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.handwriting.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.hangtracer.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.health.shared.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.healthappd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.healthd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.healthrecordsd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.homed.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.homed.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.homesharing.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.humanunderstanding.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.iCloudDriveApp.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.iMessageAppsViewService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.iapd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.iaptransportd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.icloud.findmydeviced.FMIPAccounts.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.icloud.findmydeviced.FMIPAccounts.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.icloud.findmydeviced.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.icloud.findmydeviced.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.icloud.findmydeviced.postwipe.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.icloud.findmydeviced.watch.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.icloud.fmfd.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.icloud.fmfd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.icloud.fmflocatord.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.icloud.fmflocatord.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.icloud.searchpartyd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.identityservices.idstatuscache.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.identityservices.serviceDisablement.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.identityservicesd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ids.deviceproperties.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ids.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ids.service.com.apple.private.alloy.continuity.activity.public.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ids.service.com.apple.private.alloy.digitaltouch.sync.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ids.service.com.apple.private.alloy.health.general.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ids.service.com.apple.private.alloy.health.sync.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ids.service.com.apple.private.alloy.routine.classaoc.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ids.service.com.apple.private.alloy.routine.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ids.service.com.apple.private.alloy.smsrelay.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ids.service.com.apple.stocks.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ids.subservices.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imagent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imdbadgeutilities.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imdpersistence.IMDPersistenceAgent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imdsmsrecordstore.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imessage.bag.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imessage.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imservice.FaceTime.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imservice.Madrid.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imservice.SMS.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imservice.iMessage.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imservice.ids.FaceTime.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imservice.ids.iMessage.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.imtransferservices.IMTransferAgent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ind.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.internal.carkitd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.internal.ck.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ios.StoreKitUIService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.iqagent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.itunescloud.daemon.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.itunescloud.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.itunescloudd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.itunesstored.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.jetsam.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.kbd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.keyboard.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.keyboard.preferences.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.languageassetd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.lasd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.launchservices.applinkssettings.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.launchservices.schemeapproval.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.locationd.StatusBarIconManager.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.locationd.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.locationd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.lsd.iconNames.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.lsd.restrictionhardening.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.madrid.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.managedconfiguration.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.managedconfiguration.profiled.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.measure.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mediaaccessibility.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mediaaccessibility.public.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mediaanalysisd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mediaartworkd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mediaexperience.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.medialibrary.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.medialibraryd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mediaplaybackcore.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mediaremote.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mediaremoted.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mediasetupd.defaults.developer.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mediasetupd.defaults.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mediasetupd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.messages.commsafety.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.messages.nicknames.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.messages.notifications.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.messages.pinning.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.messages.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.messages.statistics.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.messagesbadgecontroller.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.messaging.downgrade.sms.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.messaging.expire.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.metrickitd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.migration.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.migrationpluginwrapper.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mmcs.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mms_override.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobile.SyncMigrator.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobile.cache_delete_app_container_caches.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobile.installation.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobile.ldbackup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobile.ldpair.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobile.user_preferences.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobileSMS.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobilecal.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobileipod.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobilenotes.Notes.NotesDataCollector.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobilenotes.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobilephone.MPMeCardGeocoder.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobilephone.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobilephone.speeddial.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobilerepaird.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobilerepaird.systemhealth.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobileslideshow.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobilesms.compose.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobilestoresettings.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobiletimer.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mobiletimerd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mt.killed.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mt.lastLaunch.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mt.launchDelay.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.mt.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nanolifestyle.connectedgym.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nanolifestyle.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nanolifestyle.privacy.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nanonews.sync.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nanopassbook.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nanoprefsyncd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nanoregistryd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nanosystemsettings.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nanotimekitcompaniond.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nanoweatherprefs.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.network.prefPaneSimulate.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.networkserviceproxy.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.newscore.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.newscore2.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.newsd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nfcacd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.nptocompaniond.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ondemandd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.osanalytics.addaily.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.osprey.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.paired-unlock.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.pairedsyncd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.parsecd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.passd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.pbbridge.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.people.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.persistentconnection-mcc.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.photoanalysisd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.photos.ImageConversionService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.photos.VideoConversionService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.powerlog.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.powerlogHelperd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.powerlogd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.powerui.cec.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.powerui.notification.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.preferences-framework.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.preferences-sounds.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.preferences.datetime.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.preferences.network.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.preferences.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.preferences.sounds.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.printd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.privacyaccountingd.backup-disabled.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.privacyaccountingd.backup-enabled.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.age-gating.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.feature-availability.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.feature-properties.AFibBurden.companion.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.feature-properties.CardioFitness.companion.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.feature-properties.ElectrocardiogramRecordingV1.companion.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.feature-properties.ElectrocardiogramV2Recording.companion.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.feature-properties.IrregularRhythmNotificationsV2.companion.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.feature-properties.MenstrualCycles.companion.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.feature-properties.MenstrualCyclesHeartRateInput.companion.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.feature-properties.MenstrualCyclesWristTemperatureInput.companion.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.feature-properties.OxygenSaturationRecording.companion.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.feature-properties.SleepingWristTemperatureMeasurements.companion.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.heart-rhythm.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.menstrual-cycles.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.private.health.respiratory.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.proactive.HeuristicInterpreter.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.proactive.PersonalizationPortrait.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.protectedcloudstorage.protectedcloudkeysyncing.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.purplebuddy.notbackedup.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.purplebuddy.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.quicklook.ThumbnailsAgent.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.quicklook.quicklookd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.rapport.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.remindd.babysitter.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.remindd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.reminders.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.remotemanagementd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.replayd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.replaykit.AudioConferenceControlCenterModule.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.replaykit.VideoConferenceControlCenterModule.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.routined.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.searchd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.security.CircleJoinRequested.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.security.ctkd-db.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.seld.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.sensorkitd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.seserviced.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.sessionkitd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.settings.storage.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.sharingd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.shazamd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.shortcuts.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri-distributed-evaluation.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri.ClientFlow.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri.DialogEngine.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri.SpokenNotificationsModule.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri.VoiceShortcuts.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri.audio.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri.context.service.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri.embeddedspeech.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri.morphun.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri.notification.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri.shortcuts.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siri.textinput.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siriactionsd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siriinferenced.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.siriknowledged.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.sleepd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.smartcharging.topoffprotection.audioaccessories.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.smartcharging.topoffprotection.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.sms.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.social.remoteui.SocialUIService.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.sociallayerd.CloudKit.ckwriter.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.sociallayerd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.softwareupdateservices.security.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.softwareupdateservices.ui.ios.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.softwareupdateservicesd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.speakerrecognition.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.spotlightknowledged.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.spotlightui.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.springboard.SensitiveUIModule.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.springboard.datamigrator.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.springboard.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.springboard.usage.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.stockholm.analytics.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.stockholm.atl.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.stockholm.awd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.stockholm.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.stockholm.tsmreg.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.stocks.account.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.storebookkeeper.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.storebookkeeperd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.suggestd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.suggestions.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.susui.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.symptomsd-diag.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.sync.NanoHome.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.syncdefaultsd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.system.prefs.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.textInput.keyboardServices.textReplacement.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.thermalmonitor.mitigationsUI.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.timed.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.tincan.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.tipsd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.translationd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.triald.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.tv.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.ubd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.uikitservices.userInterfaceStyleMode.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.vehiclePolicy.DNDMode.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.videos-preferences.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.videos.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.visualintelligence.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.visualvoicemail.preferences.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.voicememod.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.voiceservices.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.voicetrigger.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.watchlistd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.wcd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.weather.internal.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.webinspectord.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.youtube.dp.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.youtube.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.apple.youtubeframework.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.chpwn.iconsupport.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.hackulo.us.installous.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.iptm.bigboss.sbsettings.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/com.unlimapps.UnlimTones.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/dprivacyd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/group.com.apple.notes.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/installous.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/jp.rono23.removebackgroundapp.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/kCalRemindersPreferredDaysToSyncPrefDomain.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/kNPProgressTrackerDomain.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/kbd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/libactivator.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/mediaremoted.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/nfcd.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/silhouette.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/siriknowledged.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Library/Preferences/systemgroup.com.apple.icloud.searchpartyd.sharedsettings.plist"
+      },
+      {
+        "path" : "/private/var/mobile/Media"
+      },
+      {
+        "path" : "/private/var/mobile/MobileSoftwareUpdate"
+      },
+      {
+        "path" : "/private/var/msgs"
+      },
+      {
+        "path" : "/private/var/networkd"
+      },
+      {
+        "path" : "/private/var/preferences"
+      },
+      {
+        "path" : "/private/var/protected"
+      },
+      {
+        "path" : "/private/var/root"
+      },
+      {
+        "path" : "/private/var/root/.aks_allowlist"
+      },
+      {
+        "path" : "/private/var/root/.aks_migrate"
+      },
+      {
+        "path" : "/private/var/root/.bootstrapped"
+      },
+      {
+        "path" : "/private/var/root/.mkb_seshat_health"
+      },
+      {
+        "path" : "/private/var/root/.obliterated"
+      },
+      {
+        "path" : "/private/var/root/Library"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/.GlobalPreferences.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/DTPower.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/UserEventAgent.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.ASPCarryLog.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.DumpPanic.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.MobileAsset.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.MobileBackup.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.MobileSoftwareUpdate.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.NanoMusicSync.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.Preferences.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.ReportCrash.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.TrustedPeersHelper.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.accessoryd.plugin.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.aggregated.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.appleaccount.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.atc.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.backupd.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.cltm.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.coreaudio.careporting.audioreg.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.coreauthd.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.corecaptured.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.fud.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.homesharing.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.itunescloud.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.itunesstored.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.jetsam.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.locationd.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.medialibrary.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.mobileipod.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.osanalytics.OTATaskingAgent.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.osanalytics.internal.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.osanalyticshelper.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.osintelligence.chargingpredictor.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.osintelligence.inactivity.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.osintelligence.inactivitybackup.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.peakpowermanagerd.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.powerd.bdc.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.powerd.lowpowermode.state.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.powerd.smartpowernap.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.powerd.smartpowernap.state.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.prdaily.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.preferences.network.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.remoted.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.springboard.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.systemstats.microstackshot.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.tailspin.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.thermalmonitor.agingcontroller.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.thermalmonitor.upostepper.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.wifi.manager.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.wifianalyticsd.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.xpc.activity.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/com.apple.xpc.activity2.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/osanalyticshelper.plist"
+      },
+      {
+        "path" : "/private/var/root/Library/Preferences/wifid.plist"
+      },
+      {
+        "path" : "/private/var/run"
+      },
+      {
+        "path" : "/private/var/select"
+      },
+      {
+        "path" : "/private/var/staged_system_apps"
+      },
+      {
+        "path" : "/private/var/tmp"
+      },
+      {
+        "path" : "/private/var/tmp/.LINKS"
+      },
+      {
+        "path" : "/private/var/tmp/.mkb_marker"
+      },
+      {
+        "path" : "/private/var/tmp/00ED35E6-8CD6-4E2D-9832-3A2045DD1E82"
+      },
+      {
+        "path" : "/private/var/tmp/02A06529-0C16-454F-BA12-7153890906CD"
+      },
+      {
+        "path" : "/private/var/tmp/03246493-612A-47B2-A083-BBE572D05761"
+      },
+      {
+        "path" : "/private/var/tmp/070FB21F-F5E6-43F4-B6F6-76F89DD3C455"
+      },
+      {
+        "path" : "/private/var/tmp/0B7AC029-513F-4803-994F-7C6AD8921E4A"
+      },
+      {
+        "path" : "/private/var/tmp/0BD363DF-CDBC-436F-8853-091695420CD8"
+      },
+      {
+        "path" : "/private/var/tmp/0C0850DE-EF20-4569-B3B8-CCF699F9E246"
+      },
+      {
+        "path" : "/private/var/tmp/0D180809-48AC-4541-95BA-7E844E6505A7"
+      },
+      {
+        "path" : "/private/var/tmp/0F718E84-DE35-4F7F-878E-7C843105F516"
+      },
+      {
+        "path" : "/private/var/tmp/101FDE4E-FFDA-4DC2-903C-E2D3406C6575"
+      },
+      {
+        "path" : "/private/var/tmp/103A7287-601D-46E3-BFFF-94050495D586"
+      },
+      {
+        "path" : "/private/var/tmp/11DAB76E-A55E-4DC2-B6AE-EEA33EB0324F"
+      },
+      {
+        "path" : "/private/var/tmp/11E0D2A4-19E0-4551-A674-CAFFF218DC60"
+      },
+      {
+        "path" : "/private/var/tmp/123FDE4B-34FC-445F-828A-C63737C8420A"
+      },
+      {
+        "path" : "/private/var/tmp/12E29A5D-36B7-4ED6-B33A-44A604E023ED"
+      },
+      {
+        "path" : "/private/var/tmp/134A515B-C913-4582-8101-E029568E8D65"
+      },
+      {
+        "path" : "/private/var/tmp/189E98B1-416A-4610-A71E-B30A32494826"
+      },
+      {
+        "path" : "/private/var/tmp/1957F275-4F16-463D-B65F-93F14FA651E6"
+      },
+      {
+        "path" : "/private/var/tmp/1CCBE77F-671A-47F0-84AC-9F416F3FF2AC"
+      },
+      {
+        "path" : "/private/var/tmp/232E56AA-37F9-4FB4-B1A0-3C22688B2655"
+      },
+      {
+        "path" : "/private/var/tmp/2BDDF5E7-C57F-4B1D-A1D9-E380FC75EB52"
+      },
+      {
+        "path" : "/private/var/tmp/2CD9F961-58FC-45E8-B10E-5FF8F4016978"
+      },
+      {
+        "path" : "/private/var/tmp/2E284405-C950-4434-97AB-E0CFD4409B13"
+      },
+      {
+        "path" : "/private/var/tmp/2E5EF8FB-8E3B-4809-808B-1653AEE732F9"
+      },
+      {
+        "path" : "/private/var/tmp/2E899F31-15CE-4F44-AF53-E6A879070538"
+      },
+      {
+        "path" : "/private/var/tmp/2F13DF71-3FE5-47B9-8610-3342F41317A2"
+      },
+      {
+        "path" : "/private/var/tmp/2F1F6CC7-31D4-4B73-8CD1-2BBE3C335FA3"
+      },
+      {
+        "path" : "/private/var/tmp/2F3CE822-1C45-4B00-9A6F-C410FA079A21"
+      },
+      {
+        "path" : "/private/var/tmp/2FC19FDD-A7BD-4B70-8C0C-630C57BAD569"
+      },
+      {
+        "path" : "/private/var/tmp/306AC3C0-43BB-4F6B-8EC9-B7B6CE0893B0"
+      },
+      {
+        "path" : "/private/var/tmp/30930917-ABF4-4D57-AAC5-6671728AE468"
+      },
+      {
+        "path" : "/private/var/tmp/32F09196-F1DE-41C2-B498-1D9F00D2894A"
+      },
+      {
+        "path" : "/private/var/tmp/3762B9C3-72F5-4D1B-B92E-AAFA81B6D2BA"
+      },
+      {
+        "path" : "/private/var/tmp/383B1A1B-A26A-40E5-9311-6800C297ACD1"
+      },
+      {
+        "path" : "/private/var/tmp/38920BC5-FA0F-4DC8-AADA-9E18700CFF4D"
+      },
+      {
+        "path" : "/private/var/tmp/3D06B969-13BD-4EB6-BC0C-534F5C665E78"
+      },
+      {
+        "path" : "/private/var/tmp/3D877212-DC4F-4B77-A871-A2B5B218AA6D"
+      },
+      {
+        "path" : "/private/var/tmp/447B6C8B-6874-48E8-B37A-DAC35F70FB60"
+      },
+      {
+        "path" : "/private/var/tmp/46E4BB6C-5176-4ECD-BA8B-9E55E5A02789"
+      },
+      {
+        "path" : "/private/var/tmp/497012CF-248B-4404-A5EE-644E9D992273"
+      },
+      {
+        "path" : "/private/var/tmp/49E732D7-1269-49B3-9FFC-7D61CDF162A9"
+      },
+      {
+        "path" : "/private/var/tmp/4A6A36DE-6BE5-41B6-B8BA-6B7124A52051"
+      },
+      {
+        "path" : "/private/var/tmp/4A87AB14-8E63-48F5-9EA0-49E2B008B2F7"
+      },
+      {
+        "path" : "/private/var/tmp/4BF044FC-9DAD-4A7C-A262-5DA8E386D56C"
+      },
+      {
+        "path" : "/private/var/tmp/4C68CFF9-F601-4AA0-B40A-BBCC0F496B7D"
+      },
+      {
+        "path" : "/private/var/tmp/4CD323DD-D966-4A82-93CD-38FEE2A33AA2"
+      },
+      {
+        "path" : "/private/var/tmp/4D4CCB1B-44F0-4EBD-B38E-7460FE41DD37"
+      },
+      {
+        "path" : "/private/var/tmp/4E9F8D66-DC2F-4EA0-9730-AEBE2C837767"
+      },
+      {
+        "path" : "/private/var/tmp/4EA014A2-F302-4BE7-8162-08DD22D041E1"
+      },
+      {
+        "path" : "/private/var/tmp/4F064BC6-103E-461C-88CD-2C4C7F2E770A"
+      },
+      {
+        "path" : "/private/var/tmp/501080E7-5D36-47CF-8058-2014E8B4092E"
+      },
+      {
+        "path" : "/private/var/tmp/50D8BFB6-2D2A-45AB-B502-9A258CD9324A"
+      },
+      {
+        "path" : "/private/var/tmp/50EC2389-0384-49D6-9959-0F9E94DC4A56"
+      },
+      {
+        "path" : "/private/var/tmp/52F57235-9E0C-46E6-9D27-67A4B0ED8FFC"
+      },
+      {
+        "path" : "/private/var/tmp/5619AC1B-C2DB-4EE3-A651-B1D357CB4D53"
+      },
+      {
+        "path" : "/private/var/tmp/56555DD2-C61A-4456-AEB7-9D0C93FD317A"
+      },
+      {
+        "path" : "/private/var/tmp/5C82FEDB-E9F1-4267-AD9D-0FA4296AFD17"
+      },
+      {
+        "path" : "/private/var/tmp/5CCFB51F-7EFE-4095-9AF0-883BC453180A"
+      },
+      {
+        "path" : "/private/var/tmp/5D9F6404-50A8-491D-97A2-8DC8A3BD311E"
+      },
+      {
+        "path" : "/private/var/tmp/5DCFFD9B-7FD8-43CD-9160-0E4BE4679F7E"
+      },
+      {
+        "path" : "/private/var/tmp/5E4341AA-71FD-4652-8DDD-5CA2F4868490"
+      },
+      {
+        "path" : "/private/var/tmp/646EAA01-1882-43CF-B1EE-346DC657093F"
+      },
+      {
+        "path" : "/private/var/tmp/652C40D2-A73A-4D7A-92B7-666F4AA053BD"
+      },
+      {
+        "path" : "/private/var/tmp/6660304B-26E4-4CFC-A95B-8A239D987C9D"
+      },
+      {
+        "path" : "/private/var/tmp/675F398C-1A4B-40B6-8E33-091949160AF8"
+      },
+      {
+        "path" : "/private/var/tmp/6871A0C7-9968-4D62-80F5-5358DEB7BF52"
+      },
+      {
+        "path" : "/private/var/tmp/6C27DC9D-9055-49B9-A48A-783D9361081E"
+      },
+      {
+        "path" : "/private/var/tmp/6E20451E-936F-4DC0-9CE8-CBDE75F0488A"
+      },
+      {
+        "path" : "/private/var/tmp/70A46040-F509-47B4-B2E0-2F34181AB384"
+      },
+      {
+        "path" : "/private/var/tmp/7251D6ED-8499-45D1-8D21-6E6CB5EDC408"
+      },
+      {
+        "path" : "/private/var/tmp/75098589-DBC4-46C2-A901-1FC42A605D2D"
+      },
+      {
+        "path" : "/private/var/tmp/7866FA12-57E3-46CE-9273-AF03D577F3F4"
+      },
+      {
+        "path" : "/private/var/tmp/79925630-7F0E-48C9-A4E3-42F35A7F6EF2"
+      },
+      {
+        "path" : "/private/var/tmp/7A680D51-998F-4C0B-9BB0-937576DAF734"
+      },
+      {
+        "path" : "/private/var/tmp/7B2754A8-C50A-4E99-9896-3A91E569AF1B"
+      },
+      {
+        "path" : "/private/var/tmp/7B7E6309-99CB-47C3-A255-D34B8192C9D0"
+      },
+      {
+        "path" : "/private/var/tmp/7DBC416A-CC26-4A30-A646-F28BAC4C4EFB"
+      },
+      {
+        "path" : "/private/var/tmp/7DED47E2-89FD-4C52-AFD6-3CA2A5DFA8A9"
+      },
+      {
+        "path" : "/private/var/tmp/7E88E3C3-38EA-4C55-9884-AD6E54358C2F"
+      },
+      {
+        "path" : "/private/var/tmp/7EE023D2-930E-4BB3-BD3A-A9CD4B931D19"
+      },
+      {
+        "path" : "/private/var/tmp/7FD38BAE-358C-430C-9A16-8C577546D834"
+      },
+      {
+        "path" : "/private/var/tmp/81BB6CE2-13AA-493A-AC44-BA6D51761072"
+      },
+      {
+        "path" : "/private/var/tmp/81C11628-0868-4E9E-AA40-F104E39C105E"
+      },
+      {
+        "path" : "/private/var/tmp/829423FA-201E-463E-BD53-D61F84A8341B"
+      },
+      {
+        "path" : "/private/var/tmp/84D8AC00-C2CD-4A36-970D-1069A38E79A3"
+      },
+      {
+        "path" : "/private/var/tmp/8AC7CC9D-B46D-4380-9EE3-46B938758670"
+      },
+      {
+        "path" : "/private/var/tmp/8B6AFE42-5A1A-4971-9D37-87906E5CD7A9"
+      },
+      {
+        "path" : "/private/var/tmp/8C8BECA2-5746-4454-AD5E-F346992682D9"
+      },
+      {
+        "path" : "/private/var/tmp/8E757C62-5C9E-4537-9FC8-6BE0278AF488"
+      },
+      {
+        "path" : "/private/var/tmp/8EC45B85-677B-4474-A966-6E4CA2323DBD"
+      },
+      {
+        "path" : "/private/var/tmp/8F2EFD59-3022-4321-B3BC-98C4324BC931"
+      },
+      {
+        "path" : "/private/var/tmp/8F6B840A-3E68-45E8-9E4A-DC3FF7B2F112"
+      },
+      {
+        "path" : "/private/var/tmp/9112E26B-35E4-4AA7-8F4D-87E667190D3A"
+      },
+      {
+        "path" : "/private/var/tmp/93D6977D-4AD5-4A74-83A3-E1D485668C53"
+      },
+      {
+        "path" : "/private/var/tmp/93E50744-4BE7-462A-BE9E-9D51AA5CF914"
+      },
+      {
+        "path" : "/private/var/tmp/94DF6158-49CB-4425-AE27-D18A0840F0C9"
+      },
+      {
+        "path" : "/private/var/tmp/95BBA1EA-4D86-4AF0-B612-2FC1A4BD55F6"
+      },
+      {
+        "path" : "/private/var/tmp/95FD42C8-A1C7-4C17-987C-39501C1B561B"
+      },
+      {
+        "path" : "/private/var/tmp/96882F9F-422F-42AF-A7C4-43AAAC4567CF"
+      },
+      {
+        "path" : "/private/var/tmp/99BAC2A4-37D1-4672-ACAE-0879637D6149"
+      },
+      {
+        "path" : "/private/var/tmp/99D09A43-AE1F-411A-BE4E-5D5C96590CB9"
+      },
+      {
+        "path" : "/private/var/tmp/9C2B2F1E-060A-4A3D-A449-171F7477C4AF"
+      },
+      {
+        "path" : "/private/var/tmp/9D2A47BD-9387-49C1-AC80-554B4963DB33"
+      },
+      {
+        "path" : "/private/var/tmp/9E66D240-29DA-4CFD-940B-C07AB0360E25"
+      },
+      {
+        "path" : "/private/var/tmp/A2A0BCFF-BC73-4081-A39E-ED504F9975DF"
+      },
+      {
+        "path" : "/private/var/tmp/A2A250A8-0CFD-4F81-B2B9-44F065618657"
+      },
+      {
+        "path" : "/private/var/tmp/A3783059-EBE2-4D5A-A8C9-DD6BF08430D6"
+      },
+      {
+        "path" : "/private/var/tmp/A3C2EFA1-C8C9-4832-B402-6CB2A20211D8"
+      },
+      {
+        "path" : "/private/var/tmp/A67798CF-8146-4532-93DD-58DEDE9A56D6"
+      },
+      {
+        "path" : "/private/var/tmp/A693F079-F277-4BD8-9621-F6020B5B93C1"
+      },
+      {
+        "path" : "/private/var/tmp/A743D92D-BAA6-45E1-AA5F-9733CF9E1F7E"
+      },
+      {
+        "path" : "/private/var/tmp/A7CF0F9B-E83C-48A9-9535-BB1B69BA2AB0"
+      },
+      {
+        "path" : "/private/var/tmp/A9307E7F-4E2A-4D39-A91F-A560E9B8BD8E"
+      },
+      {
+        "path" : "/private/var/tmp/A9FEFA34-CEB7-4EBB-8660-6EAE91E65F6A"
+      },
+      {
+        "path" : "/private/var/tmp/AA705F68-3BE5-49B3-81CD-FA0B7388D5CB"
+      },
+      {
+        "path" : "/private/var/tmp/AA8E7067-0BF4-41E5-B62E-1D5E427AD8BD"
+      },
+      {
+        "path" : "/private/var/tmp/AB22448A-22DF-4C51-AC0A-8DD656FD1155"
+      },
+      {
+        "path" : "/private/var/tmp/ABD2899E-620C-45DC-86EE-8CEBE4419E44"
+      },
+      {
+        "path" : "/private/var/tmp/AC7A6EC6-9B08-43C1-A96C-6D9822143FEB"
+      },
+      {
+        "path" : "/private/var/tmp/AD3A7C48-EC19-4F68-942E-F1B89E5FFA3A"
+      },
+      {
+        "path" : "/private/var/tmp/AirTraffic"
+      },
+      {
+        "path" : "/private/var/tmp/B0A7B545-8606-4002-9E8A-9FD756C91545"
+      },
+      {
+        "path" : "/private/var/tmp/B0B64BCD-2FA2-4EC7-AF06-01F69A325CE9"
+      },
+      {
+        "path" : "/private/var/tmp/B11FB0E0-F908-4233-A2C4-B88084414D85"
+      },
+      {
+        "path" : "/private/var/tmp/B2FB2877-8EDF-4A72-AB38-5CFBA00CA020"
+      },
+      {
+        "path" : "/private/var/tmp/B4434340-20FF-4641-9529-78939507EB2B"
+      },
+      {
+        "path" : "/private/var/tmp/B57E2759-6498-4B83-8E79-5A0F925F72B4"
+      },
+      {
+        "path" : "/private/var/tmp/B6952B0C-D41F-402F-BFBA-AD0566F2C14B"
+      },
+      {
+        "path" : "/private/var/tmp/B6A39868-C64E-4790-9BD8-5C1A74CB6114"
+      },
+      {
+        "path" : "/private/var/tmp/B6DAD8D1-676F-4FF8-864F-711669FC11B0"
+      },
+      {
+        "path" : "/private/var/tmp/B81FA4C5-B554-44B9-AE08-FE372202BAF3"
+      },
+      {
+        "path" : "/private/var/tmp/B8229D7F-11D6-481D-AFD2-DE5F200EC921"
+      },
+      {
+        "path" : "/private/var/tmp/B9F73AAB-BCA2-4694-9DC9-400124472A41"
+      },
+      {
+        "path" : "/private/var/tmp/BF532A6E-D0A0-4E7D-A875-22F13C9FCB13"
+      },
+      {
+        "path" : "/private/var/tmp/C22616D7-4C96-4731-93DC-99D0E79ED14E"
+      },
+      {
+        "path" : "/private/var/tmp/C2346AFE-2D98-41F2-BD44-A2C902E1095F"
+      },
+      {
+        "path" : "/private/var/tmp/C32CA0CF-2628-4928-B29A-12D14707BD95"
+      },
+      {
+        "path" : "/private/var/tmp/C3BFC394-C892-4E7A-951C-1B766C48300F"
+      },
+      {
+        "path" : "/private/var/tmp/C5057CDA-56CB-4A39-B7A0-1DF5F2E5B5C4"
+      },
+      {
+        "path" : "/private/var/tmp/C5371CC7-1BDD-4827-BDB2-489E7AF6400C"
+      },
+      {
+        "path" : "/private/var/tmp/C56CA447-3383-4245-AC87-9FB85D2A9B1A"
+      },
+      {
+        "path" : "/private/var/tmp/C5B2D983-2512-467B-95BB-4961F7B14CBB"
+      },
+      {
+        "path" : "/private/var/tmp/C778BCB0-8DC3-43E4-B391-B174B86A9E44"
+      },
+      {
+        "path" : "/private/var/tmp/C8BDA34B-EBDF-41E4-B397-53619F09EFD6"
+      },
+      {
+        "path" : "/private/var/tmp/C8F3AB67-CBDB-4F91-9763-573435275B28"
+      },
+      {
+        "path" : "/private/var/tmp/CE960996-9146-4860-BE82-EA02DF5EB323"
+      },
+      {
+        "path" : "/private/var/tmp/CFNetworkDownload_kfBGXf.tmp"
+      },
+      {
+        "path" : "/private/var/tmp/CalNotificationsAvailable"
+      },
+      {
+        "path" : "/private/var/tmp/ClonedAXAsset"
+      },
+      {
+        "path" : "/private/var/tmp/D00DD528-14E4-4315-A80F-69239F0FF076"
+      },
+      {
+        "path" : "/private/var/tmp/D39AFCB7-0738-406B-A3ED-216C5ADBD9DA"
+      },
+      {
+        "path" : "/private/var/tmp/D3C628DA-7E37-4092-A46C-C940890A825C"
+      },
+      {
+        "path" : "/private/var/tmp/D438422B-A7F8-4029-93B9-50832DAFD34E"
+      },
+      {
+        "path" : "/private/var/tmp/D47C55EE-CF2D-4582-B4C1-180C2FE931DF"
+      },
+      {
+        "path" : "/private/var/tmp/D50275FD-D37C-401A-BA38-89611D82E1B6"
+      },
+      {
+        "path" : "/private/var/tmp/D5BCF616-3F1A-4968-B363-75E4D6B9C917"
+      },
+      {
+        "path" : "/private/var/tmp/D6E13C44-D898-411A-9246-D81106CE19BF"
+      },
+      {
+        "path" : "/private/var/tmp/D8F5BF0A-EDEE-412C-B73F-019A9BA04B01"
+      },
+      {
+        "path" : "/private/var/tmp/D9550FCA-AAC4-4227-AD32-0E13326C830E"
+      },
+      {
+        "path" : "/private/var/tmp/DECE232F-2C8E-4C32-8DBE-788BDAF7670D"
+      },
+      {
+        "path" : "/private/var/tmp/E089C80D-8066-4C4A-8A80-B3720636531E"
+      },
+      {
+        "path" : "/private/var/tmp/E428EF4A-63E5-4D29-B253-14608B082321"
+      },
+      {
+        "path" : "/private/var/tmp/E4CB1056-48BB-4CEB-A19E-4D5A5DD6ECC3"
+      },
+      {
+        "path" : "/private/var/tmp/E80343C9-3738-4C98-AD87-528B8752E669"
+      },
+      {
+        "path" : "/private/var/tmp/E86EC717-9C76-435C-B9B0-CE1DDCEFC886"
+      },
+      {
+        "path" : "/private/var/tmp/EA87D5AD-B7EF-4AC7-84A4-790261195E4D"
+      },
+      {
+        "path" : "/private/var/tmp/EAA8BA11-9E12-4DF0-9D10-BB961352330C"
+      },
+      {
+        "path" : "/private/var/tmp/EB4F383C-2851-4D4B-8AD0-B332260C3980"
+      },
+      {
+        "path" : "/private/var/tmp/EB788B84-6EFC-458B-A4AD-6F0A51B0F170"
+      },
+      {
+        "path" : "/private/var/tmp/EBF918E8-793F-4C39-B6F5-246D7B9DFD12"
+      },
+      {
+        "path" : "/private/var/tmp/EC5A4412-6169-4B45-9CCC-6FA5A47DB527"
+      },
+      {
+        "path" : "/private/var/tmp/EE9FDA32-72FA-47D1-B6DE-FE99BEE7CB84"
+      },
+      {
+        "path" : "/private/var/tmp/EEA6750C-02CC-4100-965B-1D73B09632B0"
+      },
+      {
+        "path" : "/private/var/tmp/F22DDC82-8686-45EC-BDE7-E753E5575A71"
+      },
+      {
+        "path" : "/private/var/tmp/F3038F3E-0D26-442B-83D3-E99681A0DF20"
+      },
+      {
+        "path" : "/private/var/tmp/F5DCA49B-6E66-48E2-8868-59627DA45D2A"
+      },
+      {
+        "path" : "/private/var/tmp/F757086F-1E90-466F-9068-68DD5B652D8E"
+      },
+      {
+        "path" : "/private/var/tmp/F90C2DB2-572B-4E7B-AD10-10F02BA0B85B"
+      },
+      {
+        "path" : "/private/var/tmp/FBC5A690-22E8-49C7-993A-218647EA4D0F"
+      },
+      {
+        "path" : "/private/var/tmp/FC1046FE-8C3F-4AAB-A6C1-502DC2A84F0C"
+      },
+      {
+        "path" : "/private/var/tmp/FD57D98D-D190-41A0-938A-5437D6782A2B"
+      },
+      {
+        "path" : "/private/var/tmp/FE46B2E7-8CC9-495F-8417-B6217CA4E3E8"
+      },
+      {
+        "path" : "/private/var/tmp/IrisMediaCache"
+      },
+      {
+        "path" : "/private/var/tmp/MediaCache"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_2dhx4v"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_2kOHaT"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_30cznj"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_3T8fP9"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_3dbSA8"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_4SayRp"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_4cuIHT"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_5ZDwdf"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_6DyJrW"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_7Cec6m"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_8B85Xs"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_8NQlrU"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_8OCmM3"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_8SuoJf"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_8iYlJb"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_8t9eZU"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_99kveI"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_9DtJjC"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_9L4025"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_9S7Fhf"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_9WOf6E"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_9X6nL6"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_9XJLEb"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_9du6kB"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_AFOqa8"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_AfsZIz"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Axz4z6"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_AyYD0W"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_C55cc7"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_CWj5n6"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_DUV3ZI"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Dbbsf2"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Dtec38"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_E3rmHH"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_FePfZo"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_G8ie9X"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_GZy8KN"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_GcDYDB"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_HFXW9z"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_HYHee7"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Hqh3fl"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Iam9km"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_IrZof2"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Jb8z8s"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_KKgDrs"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_KN4JXf"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_LEQLaI"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_LUBxcs"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_LiaaWj"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_LnaxJL"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_LrT18Q"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Ltc9VE"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_LyNJVF"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_MXTkJF"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_MbrP6g"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_MnAXxU"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_N8HPXM"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_N8g4Ut"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_NP8gEB"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_NWblDg"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Nk4VFQ"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_OQIz30"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_OTCNBc"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_OnnaMv"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_PsMSqT"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_QAsX9G"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_QLCf3O"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Qg7hj5"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_QqYb50"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Ru2Yph"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Rwg4pM"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_SDa1FC"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Sbjd2q"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_SpOWHn"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_SvUEOv"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_T0R3JB"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_TJP71j"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_UCYbnY"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Ue7Klx"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Ui5Lnl"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_UySDLb"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_V5zt20"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_VdMjog"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_VjwkwL"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Vqwk2p"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_W7nD27"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_WG4lcZ"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_WTpoxB"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_WmaJXJ"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_X5GrMC"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_XADoYr"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_XbDnZP"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_YE1ZDY"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_ZBCCNT"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_ZVRzcO"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_ZYJ25E"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_Zi35IU"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_aKK8Ad"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_aLxuq6"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_ac76Lo"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_aebwrk"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_aknI74"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_bQJkbm"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_bXzIMv"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_c2Yw44"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_cNFm6m"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_d5HwIC"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_dKeksm"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_dT46qL"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_dnHtxK"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_eUecht"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_f657yl"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_fA86gV"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_fw6lUk"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_g5vLJT"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_g9iVp4"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_gTmhP8"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_gweCw7"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_h0SaFh"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_hFnMWT"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_ht3ifR"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_ichS6i"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_iikknU"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_iqWzC0"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_itLOnf"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_j50eMc"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_jBbBr7"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_jeAFxV"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_jgldca"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_jrJWUg"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_k1Sf59"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_kyZqu4"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_lOkIjs"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_lPYTp1"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_lPdMNB"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_lTW9AQ"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_lVuNHF"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_ld30Ok"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_loVcLa"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_lt10TU"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_mFoEbb"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_mIcoMS"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_mSqoJo"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_mX5o8F"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_mwYUh2"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_nKoGSR"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_nUR944"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_oAudLP"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_oHx0q5"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_obJkUr"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_pcbZkp"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_pgQJaj"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_qzSNXo"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_rACbSs"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_rr3pkr"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_sBSFWU"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_sCernY"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_spytOJ"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_tJwYkL"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_tPqWOb"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_tRr8nf"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_tWgxFO"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_uJHtBX"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_vEox5T"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_vFSWUl"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_vZVV0Q"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_w27VWu"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_wFiJi3"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_wOuyjd"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_wT09tg"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_wcIAkz"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_wuvQjV"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_xCqcDt"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_xGXlJk"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_xX32K9"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_yCnC5R"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_ydGrsi"
+      },
+      {
+        "path" : "/private/var/tmp/NSIRD_installd_zI0n2m"
+      },
+      {
+        "path" : "/private/var/tmp/PartialPassCache"
+      },
+      {
+        "path" : "/private/var/tmp/SOSBackup-OtherSyncable-tomb"
+      },
+      {
+        "path" : "/private/var/tmp/SoftwareUpdateCore"
+      },
+      {
+        "path" : "/private/var/tmp/UserWordStore.A7AC9AE40C8D90FE9DDA757142B67206960071F29DADE7C3E39D17B787F07BD7"
+      },
+      {
+        "path" : "/private/var/tmp/UserWordStore.C4C5DACFB0BEE11705AD272B06FD08BC6DD11746AD997CD0981DCEEA1A50EA3F"
+      },
+      {
+        "path" : "/private/var/tmp/analytics"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.AMPIDService"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.CallKit.CallDirectory"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.Camera"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.ClipServices.clipserviced"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.CloudDocsDaemon.container-metadata-extractor"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.CommCenterRootHelper"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.FTLivePhotoService"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.FaceTime.FTConversationService"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.GSSCred"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.MTLCompilerService"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.ManagedSettingsAgent"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.MediaServices"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.MobileAccessoryUpdater"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.MobileSlideShow"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.Passbook"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.RemoteManagementAgent"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.Safari.SafeBrowsing"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.ScreenTimeAgent"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.TelephonyUtilities"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.UsageTrackingAgent"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.WirelessRadioManager"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.abm-helper"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.accessoryupdater.UARPUpdaterServiceAFU"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.activityawardsd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.adprivacyd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.aned"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.announced"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.anomalydetectiond"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.ap.promotedcontentd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.appleaccountd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.appstorecomponentsd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.appstored"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.apsd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.asd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.assetsd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.assistantd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.auearlyboot"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.avatarsd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.avconferenced"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.backboardd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.batteryintelligenced"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.biomed"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.biomesyncd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.bird"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.brookcompaniond"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.businessservicesd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.chrono"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.cloudd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.cloudkit.upload-request.cache"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.cloudpaird"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.contactsd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.coreidvd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.corespeechd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.dasd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.deferredmediad"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.desktopservices.desktopserviceshelper"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.dmd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.donotdisturbd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.driverkitd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.email.maild"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.fileproviderd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.financed"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.fitcored"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.fitnesscoachingd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.healthappd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.healthrecordsd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.heard"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.icloud.searchpartyd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.icloudsubscriptionoptimizerd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.identityservicesd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.installcoordinationd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.intelligenceplatform.intelligenceplatformd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.intelligenceplatform.knowledgeconstructiond"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.intents.intents-helper"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.itunesstored"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.locationd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.maps.destinationd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.mapspushd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.mediaanalysisd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.mediaremoted"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.mediasetupd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.messages"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.metrickitd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.mobileactivationd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.mobileassetd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.mobileslideshow.export-request"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.nanoregistryd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.nanotimekitcompaniond"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.nearbyd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.nptocompaniond"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.passd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.pasteboard.pasted"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.photoanalysisd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.privacyaccountingd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.proactiveeventtrackerd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.progressd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.proximitycontrold"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.ptpd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.rapportd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.remindd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.remotemanagementd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.revisiond"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.sensorkitd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.sessionkit"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.sharingd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.siri-distributed-evaluation"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.siri.context.service"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.siriactionsd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.siriinferenced"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.siriknowledged"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.sleepd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.speechmodeltrainingd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.statuskit"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.storekit"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.swcd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.symptomsd-diag"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.tccd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.tipsd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.translationd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.transparencyd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.trial.TrialArchivingService"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.triald"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.trustd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.tursd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.useractivityd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.weatherd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.wifi.manager"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.wifianalyticsd"
+      },
+      {
+        "path" : "/private/var/tmp/com.apple.wifivelocity"
+      },
+      {
+        "path" : "/private/var/tmp/ct.shutdown"
+      },
+      {
+        "path" : "/private/var/tmp/hdds6.dat"
+      },
+      {
+        "path" : "/private/var/tmp/internal"
+      },
+      {
+        "path" : "/private/var/tmp/journeys"
+      },
+      {
+        "path" : "/private/var/tmp/lasdlte.db"
+      },
+      {
+        "path" : "/private/var/tmp/lasdlte.db.HT2Z"
+      },
+      {
+        "path" : "/private/var/tmp/lasdumts.db"
+      },
+      {
+        "path" : "/private/var/tmp/lasdumts.db.Azum"
+      },
+      {
+        "path" : "/private/var/tmp/nfcd.firstlaunch"
+      },
+      {
+        "path" : "/private/var/tmp/powerlog"
+      },
+      {
+        "path" : "/private/var/tmp/recommendations"
+      },
+      {
+        "path" : "/private/var/vm"
+      },
+      {
+        "path" : "/private/var/wireless"
+      },
+      {
+        "path" : "/sbin"
+      },
+      {
+        "path" : "/tmp"
+      },
+      {
+        "path" : "/usr"
+      },
+      {
+        "path" : "/var"
+      }
+    ],
+    "osVersion" : "iPhone OS 16.1.1 (20B101)",
+    "hardwareModel" : "D73AP",
+    "osVersionType" : "iPhone OS",
+    "osVersionBuild" : "20B101",
+    "osVersionNumber" : "16.1.1"
+  }

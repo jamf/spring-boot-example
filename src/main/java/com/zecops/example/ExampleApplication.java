@@ -2,8 +2,12 @@ package com.zecops.example;
 
 import com.fasterxml.jackson.core.StreamReadConstraints;
 import lombok.extern.slf4j.Slf4j;
+import org.neo4j.cypherdsl.core.renderer.Configuration;
+import org.neo4j.cypherdsl.core.renderer.Dialect;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+
 
 @Slf4j
 @SpringBootApplication
@@ -13,5 +17,11 @@ public class ExampleApplication {
         Thread.setDefaultUncaughtExceptionHandler((t, e) -> log.error("Uncaught exception in thread '{}'", t.getName(), e));
         StreamReadConstraints.overrideDefaultStreamReadConstraints(StreamReadConstraints.builder().maxStringLength(100_000_000).build());
         SpringApplication.run(ExampleApplication.class, args);
+    }
+
+    @Bean
+    Configuration cypherDslConfiguration() {
+        return Configuration.newConfig()
+                .withDialect(Dialect.NEO4J_5).build();
     }
 }
