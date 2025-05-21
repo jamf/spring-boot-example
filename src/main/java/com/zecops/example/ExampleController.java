@@ -1,6 +1,8 @@
 package com.zecops.example;
 
+import com.zecops.example.dto.FailingMessage;
 import com.zecops.example.dto.Greeting;
+import com.zecops.example.dto.Upload;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -80,6 +82,13 @@ public class ExampleController {
         }
         return ResponseEntity.status(HttpStatus.TOO_MANY_REQUESTS).build();
     }
+
+    @PostMapping("generateFailingMessage")
+    public ResponseEntity<?> generateFailingMessage(@RequestParam("key") String key, @RequestParam("failCount") int failCount) {
+        kafkaTemplate.send("failing-messages", key, new FailingMessage(failCount));
+        return ResponseEntity.status(HttpStatus.ACCEPTED).build();
+    }
+
 
     @PostMapping("resetVerifier")
     public ResponseEntity<?> resetVerifier() {
