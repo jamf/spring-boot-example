@@ -13,6 +13,6 @@ metadata:
 
 spec:
   type: service
-  owner: zecops
+  owner: crocodile
   lifecycle: experimental
   system: jetp
